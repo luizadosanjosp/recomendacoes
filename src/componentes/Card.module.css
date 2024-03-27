@@ -1,0 +1,18 @@
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: var(--fundo-conteiner-2);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px var(--borda-2);
+    transition: transform .3s;
+}
+
+.conteiner:hover {
+    transform: scale(1.020);
+    box-shadow: 0px 0px 10px var(--borda);
+}
+
