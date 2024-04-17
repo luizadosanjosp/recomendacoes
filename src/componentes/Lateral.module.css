@@ -48,7 +48,7 @@
     border: 2px solid var(--borda);
     background-color: transparent;
     color: var(--fonte-título);
-    transition: color 0.1s, background-color 0.1s;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 .botao strong {
@@ -56,7 +56,7 @@
 }
 
 .botao:hover {
-    background-color: var(--borda-4);
+    background-color: var(--borda);
     color: var(--branco);
 }
 
